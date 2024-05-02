@@ -1,6 +1,6 @@
-# app02
+# Quiz App
 
-A new Flutter project.
+A demmy flutter quiz app .
 
 ## Getting Started
 
