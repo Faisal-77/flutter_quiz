@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Remove win32 dependency
+        run: flutter pub remove win32 || true
+
       - name: Build iOS (no signing)
         run: flutter build ios --release --no-codesign
 
